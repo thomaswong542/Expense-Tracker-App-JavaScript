@@ -1,0 +1,78 @@
+.tools {
+    margin: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tools h1 {
+    font-size: 3rem;
+}
+
+.btn-grp button {
+    width: 6rem;
+    font-family: cursive;
+    border: none;
+    display: inline-block;
+    margin: 0 0.2rem;
+    padding: 0.6rem;
+    background-color: #284B63;
+    border-radius: 1rem;
+    box-shadow: 0 3px #4b4b4b;
+}
+
+.btn-grp button:hover {
+    cursor: pointer;
+}
+
+.btn-grp button:active {
+    box-shadow: 0 2px #242424;
+    transform: translateY(4px);
+}
+
+.btn-grp button i {
+    color: #EEF0EB;
+}
+
+table, td, th {
+    border: #284B63 solid 2px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.expensetable {
+    padding: 0.2rem;
+    overflow-x: auto;
+}
+
+.expensetable button {
+    background-color: #B4B8AB;
+    border: none;
+    cursor: pointer;
+}
+
+.expensetable button:hover {
+    background-color: #EEF0EB;
+    border-radius: 0.3rem;
+}
+
+th {
+    padding: 0.3rem 0;
+}
+
+td {
+    padding: 1rem 0;
+}
+
+tr:hover {
+    background-color: #F4F9E9;
+}
+
+.delete-form p {
+    text-align: center;
+}

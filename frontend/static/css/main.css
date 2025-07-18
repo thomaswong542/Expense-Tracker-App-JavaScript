@@ -1,0 +1,157 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F4F9E9;
+    border-radius: 10px;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: cursive;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 14px;
+    background-color: #B4B8AB;
+    color: black;
+}
+
+h1 {
+    color: #284B63;
+}
+
+.top-nav {
+    position: sticky;
+    top: 0;
+    background-color: #153243;
+}
+
+.top-nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-nav ul li {
+    padding: 0.2rem 0;
+}
+
+.top-nav ul li a.disabled {
+    cursor: not-allowed;
+    color: rgb(117, 117, 117);
+}
+
+.top-nav ul li a {
+    color: #EEF0EB;
+    text-decoration: none;
+}
+
+
+.dialog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog {
+    margin: auto;
+}
+
+::backdrop {
+    backdrop-filter: blur(5px);
+}
+
+.dialog-content {
+    width: 50%;
+    background-color: #153243;
+    color: #F4F9E9;
+    border: #153243 solid;
+    border-radius: 0.4rem;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+
+.form-header button {
+    border: none;
+    padding: 0.2rem;
+    background-color: #153243;
+    color: white;
+}
+
+.form-header button:hover {
+    background-color: #284B63;
+    border-radius: 0.5rem;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 0 0 0;
+    padding: 0.2rem;
+}
+
+.form-content button {
+    width: 6rem;
+    font-family: cursive;
+    border: none;
+    display: inline-block;
+    margin: 0.5rem 0.2rem;
+    padding: 0.6rem;
+    background-color: #284B63;
+    border-radius: 1rem;
+    box-shadow: 0 3px #4b4b4b;
+    color: #EEF0EB;
+}
+
+input, select {
+    padding: 0.3rem;
+}
+
+.form-content label {
+    margin: 0.5rem 0;
+}
+
+
+/* 1 - dark 5 - light */
+/* 1 - 153243
+2 - 284B63
+3 - B4B8AB
+4 - F4F9E9
+5 - EEF0EB */
+
+/*
+4b4b4b - box shadow
+242424 - dark box shadow
+*/

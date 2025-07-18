@@ -1,0 +1,66 @@
+.tools {
+    margin: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tools h1 {
+    font-size: 3rem;
+}
+
+.btn-grp button {
+    width: 6rem;
+    font-family: cursive;
+    border: none;
+    display: inline-block;
+    margin: 0 0.2rem;
+    padding: 0.6rem;
+    background-color: #284B63;
+    border-radius: 1rem;
+    box-shadow: 0 3px #4b4b4b;
+}
+
+.btn-grp button:active {
+    box-shadow: 0 2px #242424;
+    transform: translateY(4px);
+}
+
+.btn-grp button i {
+    color: #EEF0EB;
+}
+
+.table-list {
+    margin: 2% 3%;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.table-list-item {
+    line-height: 2.5;
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.table-list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.tableList-btn-grp button {
+    border: none;
+    background-color: #B4B8AB;
+    cursor: pointer;
+    padding: 0.1rem 0.5rem;
+}
+
+.tableList-btn-grp button:hover {
+    background-color: #EEF0EB;
+    border-radius: 0.5rem;
+}
+
+
