@@ -1,0 +1,4 @@
+This project include the following libraries:
+
+node-postgres: https://www.npmjs.com/package/pg (MIT License)
+dotenv: https://www.npmjs.com/package/dotenv (BSD-2-Clause License)
