@@ -44,6 +44,6 @@ This Project is for mainly for job application, personal and non-commercial use 
 7. Enter "http://127.0.0.1:3000/frontend/html/expenseTables.html" in web browser to use the web application
 
 ## Screenshot
-<img width="1280" height="720" alt="expenseTable" src="https://github.com/user-attachments/assets/ee7d3cb8-8ef2-4173-a585-deb8f178b3ae" />
+<img width="1280" height="720" alt="expenseTable" src="https://github.com/user-attachments/assets/6491a63a-1c32-4c20-8caf-c076fd90b905" />
 <img width="1280" height="720" alt="expenseItem" src="https://github.com/user-attachments/assets/da47e20a-7897-47b3-8c0b-64f52bff633d" />
 
